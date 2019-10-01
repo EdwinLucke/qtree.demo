@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\WCF",
+    "\\WCF\\2DockerContainer"
   ],
+  "SelectedNode": "\\WCF\\2DockerContainer",
   "PreviewInSolutionExplorer": false
 }
