@@ -250,6 +250,9 @@ ServiceFabricBackup/
 *.ldf
 *.ndf
 
+# SQL Lite files
+*.sqlite
+
 # Business Intelligence projects
 *.rdl.data
 *.bim.layout
