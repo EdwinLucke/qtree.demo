@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\dotnet3\\BeepingMusicMaker",
+    "\\dotnet3\\BeepingMusicMaker\\BeepingMusicMaker",
+    "\\dotnet6"
   ],
+  "SelectedNode": "\\dotnet6",
   "PreviewInSolutionExplorer": false
 }
