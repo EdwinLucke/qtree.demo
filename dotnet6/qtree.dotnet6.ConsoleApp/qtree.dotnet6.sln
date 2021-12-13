@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qtree.dotnet6.consoleapp", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qtree.dotnet6.webapi", "qtree.dotnet6.webapi\qtree.dotnet6.webapi.csproj", "{9B5DAAEF-8CA5-4637-A484-1C150FAC9D82}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qtree.dotnet6.blazorapp", "qtree.dotnet6.blazorapp\qtree.dotnet6.blazorapp.csproj", "{901ED9EE-0150-4866-A7E0-4CF9DC0FFCFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9B5DAAEF-8CA5-4637-A484-1C150FAC9D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B5DAAEF-8CA5-4637-A484-1C150FAC9D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B5DAAEF-8CA5-4637-A484-1C150FAC9D82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{901ED9EE-0150-4866-A7E0-4CF9DC0FFCFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{901ED9EE-0150-4866-A7E0-4CF9DC0FFCFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{901ED9EE-0150-4866-A7E0-4CF9DC0FFCFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{901ED9EE-0150-4866-A7E0-4CF9DC0FFCFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
