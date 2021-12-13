@@ -5,9 +5,9 @@ VisualStudioVersion = 17.1.31911.260
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qtree.dotnet6.consoleapp", "qtree.dotnet6\qtree.dotnet6.consoleapp.csproj", "{B9410791-974C-4115-A82C-DDE60596D8DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qtree.dotnet6.webapi", "qtree.dotnet6.webapi\qtree.dotnet6.webapi.csproj", "{9B5DAAEF-8CA5-4637-A484-1C150FAC9D82}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qtree.dotnet6.webapi.dockerized", "qtree.dotnet6.webapi\qtree.dotnet6.webapi.dockerized.csproj", "{9B5DAAEF-8CA5-4637-A484-1C150FAC9D82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qtree.dotnet6.blazorapp", "qtree.dotnet6.blazorapp\qtree.dotnet6.blazorapp.csproj", "{901ED9EE-0150-4866-A7E0-4CF9DC0FFCFE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qtree.dotnet6.blazorapp.dockerized", "qtree.dotnet6.blazorapp\qtree.dotnet6.blazorapp.dockerized.csproj", "{901ED9EE-0150-4866-A7E0-4CF9DC0FFCFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
