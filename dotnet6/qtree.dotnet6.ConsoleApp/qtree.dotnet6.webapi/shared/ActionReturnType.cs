@@ -22,6 +22,7 @@ namespace qtree.dotnet6.webapi.dockerized.shared
             Errors = errors == null ? new List<string>() : errors.ToList();
         }
 
+
         /// <summary>
         /// Add an error to the error list
         /// </summary>
