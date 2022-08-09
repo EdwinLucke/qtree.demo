@@ -43,5 +43,5 @@ jobs:
         shell: powershell
         run: |
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"EdwinLucke_mslearn-tailspin-spacegame-web" /o:"edwinlucke-sonarcloud-key001" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
-          dotnet build ./dotnet6/qtree.dotnet6.ConsoleApp/qtree.dotnet6.sln
+          dotnet build .\dotnet6\qtree.dotnet6.ConsoleApp\qtree.dotnet6.sln
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
