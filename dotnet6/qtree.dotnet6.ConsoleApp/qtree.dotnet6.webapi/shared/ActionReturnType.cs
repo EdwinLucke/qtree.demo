@@ -15,11 +15,11 @@ namespace qtree.dotnet6.webapi.dockerized.shared
         public List<string> Errors { get; set; }
         public string Message { get; set; } = string.Empty;
 
-        public ActionReturnType(T returnObject, AvailableStatusCodes code = AvailableStatusCodes.Ok, IEnumerable<string> errors = null)
+        public ActionReturnType(T returnObject, AvailableStatusCodes code = null, IEnumerable<string> errors = null)
         {
             Object = returnObject;
-            Code = code;
-            Errors = (errors == null) ? new List<string>() : errors.ToList();
+            Code = code == null ? AvailableStatusCodes.Ok : code;
+            Errors = errors == null ? new List<string>() : errors.ToList();
         }
 
         /// <summary>
