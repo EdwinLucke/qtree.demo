@@ -402,3 +402,4 @@ FodyWeavers.xsd
 *.tfstate.*
 secrets.auto.tfvars
 /.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
