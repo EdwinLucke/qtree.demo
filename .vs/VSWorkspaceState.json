@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\chatgpt",
+    "\\chatgpt\\pipelines"
   ],
-  "SelectedNode": "\\qtree.dotnet6.sln",
+  "SelectedNode": "\\chatgpt\\pipelines\\infrastructure.yaml",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,53 @@
+# create azure yaml file for infrastructure deployment
+
+trigger:
+  branches:
+    include:
+      - main
+
+pr:
+  branches:
+    include:
+      - '*'
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+parameters:
+- name: azureSubscription
+  displayName: Azure Subscription
+  type: string 
+
+- name: resourceGroupName
+  displayName: Resource Group Name
+  type: string
+  default: 'az-500'
+
+- name: location
+  displayName: Location
+  type: string
+  default: 'westeurope'
+
+- name: deploymentName
+  displayName: Deployment Name
+  type: string
+  default: 'InfraGeneratedWithChatGPT'
+
+- name: templateFile
+  displayName: Template File
+  type: string
+  default: 'main.bicep'
+
+steps:
+- task: AzureCLI@2
+  inputs:
+    azureSubscription: '$(azureSubscription)'
+    scriptType: 'bash'
+    scriptLocation: 'inlineScript'
+    inlineScript: |
+      az group create --name $(resourceGroupName) --location $(location)
+      
+      az deployment group create \
+        --name $(deploymentName) \
+        --resource-group $(resourceGroupName) \
+        --template-file $(templateFile)
