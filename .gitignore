@@ -401,3 +401,4 @@ FodyWeavers.xsd
 *.tfstate
 *.tfstate.*
 secrets.auto.tfvars
+/.vs/slnx.sqlite
